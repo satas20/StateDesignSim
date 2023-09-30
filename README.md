@@ -1,4 +1,3 @@
-# StateDesignSim
 This is a unity project that I made  during my internship at MASOMO aim of this project is to  better understand the State Design pattern. 
 In the Sceene there is 3 main object  Guard :cop:  which protect the collectable from the Collector, Collector :imp: which tries to steal the collectable and the Collectable :yellow_circle:. 
 
@@ -14,4 +13,11 @@ In the Sceene there is 3 main object  Guard :cop:  which protect the collectable
 - **Patrol** State: In this state, the Collector patrols the area randomly.
 - **Flee State**: While in patroling or collecting state if the Collector can see the Guard Collector state changes to Flee state. In this state, the Collector runs away from the Guard until it is far enough. 
 - **Collect State**: While Patroling if the Collector sees the Collectable, the Collector state changes to Collect state. In this state collector approaches to the collectible and collects when it is close enough. This is the Collector's win state.
+  
+## Preview
+![image](https://github.com/satas20/StateDesignSim/assets/84992313/44a5a104-6b64-4d46-be0e-cad313fdaa2c)
+[For More Gameplay](https://youtu.be/TqAZ5baDbpg)
+
+## Assets
+Particle Effects = [Simple FX - Cartoon Particles](https://assetstore.unity.com/packages/vfx/particles/simple-fx-cartoon-particles-67834)
 
