@@ -1,4 +1,4 @@
-This is a unity project that I made  during my internship at MASOMO aim of this project is to  better understand the State Design pattern. 
+This is a unity project that I made to  better understand the State Design pattern. 
 In the Sceene there is 3 main object  Guard :cop:  which protect the collectable from the Collector, Collector :imp: which tries to steal the collectable and the Collectable :yellow_circle:. 
 
 # Object States
